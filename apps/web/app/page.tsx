@@ -5,7 +5,7 @@ import { TurborepoLogo } from "@repo/ui/turborepo-logo";
 
 const LINKS = [
   {
-    title: "Docs",
+    title: "Docs!",
     href: "https://turborepo.com/docs",
     description: "Find in-depth information about Turborepo features and API.",
   },
