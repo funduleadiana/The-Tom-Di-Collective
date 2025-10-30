@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Card } from "@repo/ui/card";
 import { Gradient } from "@repo/ui/gradient";
 import { TurborepoLogo } from "@repo/ui/turborepo-logo";
+import { Text } from "@/components/Text/Text";
 
 const LINKS = [
   {
@@ -74,9 +75,7 @@ export default function Page() {
               />
             </div>
 
-            <div className="flex justify-center items-center z-50">
-              <TurborepoLogo />
-            </div>
+            <Text />
           </div>
           <Gradient
             className="top-[-500px] opacity-[0.15] w-[1000px] h-[1000px]"
@@ -111,6 +110,7 @@ export default function Page() {
           </Card>
         ))}
       </div>
+      <Text />
     </main>
   );
 }
